@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+  <title id="title">GH.FOLIO Banner</title>
+  <desc id="desc">Neo-brutalist banner for GH.FOLIO GitHub portfolio builder.</desc>
+  <rect width="1200" height="400" fill="#ffffff"/>
+
+  <g stroke="#000000" stroke-width="4" fill="none">
+    <path d="M0 80H1200"/>
+    <path d="M0 160H1200"/>
+    <path d="M0 240H1200"/>
+    <path d="M0 320H1200"/>
+    <path d="M120 0V400"/>
+    <path d="M300 0V400"/>
+    <path d="M520 0V400"/>
+    <path d="M780 0V400"/>
+    <path d="M980 0V400"/>
+  </g>
+
+  <rect x="0" y="0" width="300" height="80" fill="#000000"/>
+  <text x="24" y="52" font-family="'Courier New', monospace" font-size="30" font-weight="700" fill="#ffffff">OPEN SOURCE</text>
+
+  <rect x="300" y="80" width="680" height="160" fill="#000000"/>
+  <text x="332" y="175" font-family="'Courier New', monospace" font-size="92" font-weight="900" letter-spacing="2" fill="#ffffff">GH.FOLIO</text>
+
+  <rect x="300" y="248" width="480" height="60" fill="#f5d000" stroke="#000000" stroke-width="4"/>
+  <text x="322" y="287" font-family="'Courier New', monospace" font-size="28" font-weight="700" fill="#000000">GitHub portfolio in minutes.</text>
+
+  <rect x="980" y="0" width="220" height="240" fill="#00c2ff" stroke="#000000" stroke-width="4"/>
+  <rect x="980" y="240" width="220" height="80" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+  <rect x="980" y="320" width="220" height="80" fill="#000000"/>
+
+  <text x="1002" y="288" font-family="'Courier New', monospace" font-size="24" font-weight="700" fill="#000000">BUILD</text>
+  <text x="1002" y="370" font-family="'Courier New', monospace" font-size="24" font-weight="700" fill="#ffffff">SHIP</text>
+
+  <rect x="0" y="320" width="520" height="80" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+  <text x="24" y="370" font-family="'Courier New', monospace" font-size="24" font-weight="700" fill="#000000">No backend setup. Just username + render.</text>
+</svg>

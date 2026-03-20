@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="860" viewBox="0 0 1400 860" role="img" aria-labelledby="title desc">
+  <title id="title">GH.FOLIO Architecture</title>
+  <desc id="desc">System architecture with client app modules, external APIs, and outputs.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="14" markerHeight="10" refX="12" refY="5" orient="auto">
+      <path d="M0,0 L14,5 L0,10 Z" fill="#000000"/>
+    </marker>
+  </defs>
+
+  <rect width="1400" height="860" fill="#ffffff"/>
+  <rect x="40" y="40" width="1320" height="780" fill="none" stroke="#000000" stroke-width="4"/>
+  <text x="64" y="78" font-family="'Courier New', monospace" font-size="28" font-weight="900" fill="#000000">GH.FOLIO SYSTEM ARCHITECTURE</text>
+
+  <rect x="80" y="120" width="860" height="650" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+  <text x="100" y="154" font-family="'Courier New', monospace" font-size="20" font-weight="700">Browser Runtime Boundary</text>
+
+  <rect x="120" y="190" width="370" height="200" fill="#f2f2f2" stroke="#000000" stroke-width="4"/>
+  <text x="140" y="226" font-family="'Courier New', monospace" font-size="20" font-weight="800">Presentation Layer</text>
+  <text x="140" y="258" font-family="'Courier New', monospace" font-size="16" font-weight="700">• Landing Screen</text>
+  <text x="140" y="286" font-family="'Courier New', monospace" font-size="16" font-weight="700">• Loader Screen</text>
+  <text x="140" y="314" font-family="'Courier New', monospace" font-size="16" font-weight="700">• Portfolio Screen</text>
+  <text x="140" y="342" font-family="'Courier New', monospace" font-size="16" font-weight="700">• Markdown / Enhance Modals</text>
+
+  <rect x="520" y="190" width="380" height="200" fill="#f2f2f2" stroke="#000000" stroke-width="4"/>
+  <text x="540" y="226" font-family="'Courier New', monospace" font-size="20" font-weight="800">Application Layer</text>
+  <text x="540" y="258" font-family="'Courier New', monospace" font-size="16" font-weight="700">• State Management</text>
+  <text x="540" y="286" font-family="'Courier New', monospace" font-size="16" font-weight="700">• Fetch Orchestrator</text>
+  <text x="540" y="314" font-family="'Courier New', monospace" font-size="16" font-weight="700">• Data Normalizer</text>
+  <text x="540" y="342" font-family="'Courier New', monospace" font-size="16" font-weight="700">• Markdown Generator</text>
+
+  <rect x="120" y="430" width="780" height="300" fill="#f2f2f2" stroke="#000000" stroke-width="4"/>
+  <text x="140" y="466" font-family="'Courier New', monospace" font-size="20" font-weight="800">Domain Modules</text>
+
+  <rect x="150" y="500" width="220" height="90" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+  <text x="164" y="552" font-family="'Courier New', monospace" font-size="16" font-weight="700">GitHub Adapter</text>
+
+  <rect x="400" y="500" width="220" height="90" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+  <text x="414" y="552" font-family="'Courier New', monospace" font-size="16" font-weight="700">UI Renderer</text>
+
+  <rect x="650" y="500" width="220" height="90" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+  <text x="664" y="552" font-family="'Courier New', monospace" font-size="16" font-weight="700">Theme Engine</text>
+
+  <rect x="150" y="615" width="220" height="90" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+  <text x="164" y="668" font-family="'Courier New', monospace" font-size="16" font-weight="700">Storage Cache</text>
+
+  <rect x="400" y="615" width="220" height="90" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+  <text x="414" y="668" font-family="'Courier New', monospace" font-size="16" font-weight="700">Rate-Limit Guard</text>
+
+  <rect x="650" y="615" width="220" height="90" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+  <text x="664" y="668" font-family="'Courier New', monospace" font-size="16" font-weight="700">Export Service</text>
+
+  <rect x="980" y="120" width="340" height="270" fill="#ffe87a" stroke="#000000" stroke-width="4"/>
+  <text x="1000" y="154" font-family="'Courier New', monospace" font-size="20" font-weight="800">External Systems</text>
+  <rect x="1010" y="190" width="280" height="74" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+  <text x="1030" y="236" font-family="'Courier New', monospace" font-size="16" font-weight="700">GitHub REST API</text>
+  <rect x="1010" y="286" width="280" height="74" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+  <text x="1030" y="332" font-family="'Courier New', monospace" font-size="16" font-weight="700">GitHub GraphQL API</text>
+
+  <rect x="980" y="430" width="340" height="340" fill="#c7f5ff" stroke="#000000" stroke-width="4"/>
+  <text x="1000" y="464" font-family="'Courier New', monospace" font-size="20" font-weight="800">Outputs</text>
+  <rect x="1010" y="500" width="280" height="74" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+  <text x="1030" y="546" font-family="'Courier New', monospace" font-size="16" font-weight="700">Rendered Portfolio UI</text>
+  <rect x="1010" y="596" width="280" height="74" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+  <text x="1030" y="642" font-family="'Courier New', monospace" font-size="16" font-weight="700">Generated README</text>
+  <rect x="1010" y="692" width="280" height="54" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+  <text x="1030" y="726" font-family="'Courier New', monospace" font-size="16" font-weight="700">Shareable Link</text>
+
+  <g stroke="#000000" stroke-width="4" fill="none" marker-end="url(#arrow)">
+    <path d="M490 290H520"/>
+    <path d="M900 290H1010"/>
+    <path d="M260 500V390"/>
+    <path d="M510 500V390"/>
+    <path d="M760 500V390"/>
+    <path d="M900 545H1010"/>
+    <path d="M900 640H1010"/>
+  </g>
+</svg>
